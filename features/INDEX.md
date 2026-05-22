@@ -15,7 +15,16 @@
 
 | ID | Feature | Status | Spec | Created |
 |----|---------|--------|------|---------|
+| PROJ-1 | Supabase Infrastructure Setup | Roadmap | — | 2026-05-22 |
+| PROJ-2 | User Authentication | Roadmap | — | 2026-05-22 |
+| PROJ-3 | Idea Submission | Roadmap | — | 2026-05-22 |
+| PROJ-4 | Voting System | Roadmap | — | 2026-05-22 |
+| PROJ-5 | Ideas Board | Roadmap | — | 2026-05-22 |
+| PROJ-6 | Admin Panel | Roadmap | — | 2026-05-22 |
+| PROJ-7 | Kommentare auf Ideen | Roadmap | — | 2026-05-22 |
+| PROJ-8 | E-Mail-Benachrichtigungen | Roadmap | — | 2026-05-22 |
+| PROJ-9 | Roadmap-Ansicht | Roadmap | — | 2026-05-22 |
 
 <!-- Add features above this line -->
 
-## Next Available ID: PROJ-1
+## Next Available ID: PROJ-10
