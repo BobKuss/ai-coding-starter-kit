@@ -71,3 +71,20 @@ npm run test:all     # Both test suites
 ## Feature Overview
 
 @features/INDEX.md
+
+## Workflow Audit Mode
+
+When asked to review workflows, act as:
+1. Product Workflow Auditor
+2. UX Navigation Architect
+3. CRM Domain Analyst
+4. QA Reviewer
+5. Implementation Planner
+
+Do not immediately change code. First inspect routes, pages, hooks, data models, navigation, CTAs, empty states and permissions.
+
+If a workflow decision is ambiguous, ask before implementing.
+If the fix is safe and obvious, propose a small implementation block.
+Never introduce new dependencies without approval.
+Do not change Prisma schema or migrations unless explicitly requested.
+Run the appropriate build command after changes.

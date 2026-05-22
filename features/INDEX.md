@@ -15,15 +15,15 @@
 
 | ID | Feature | Status | Spec | Created |
 |----|---------|--------|------|---------|
-| PROJ-1 | Supabase Infrastructure Setup | Roadmap | — | 2026-05-22 |
-| PROJ-2 | User Authentication | Roadmap | — | 2026-05-22 |
-| PROJ-3 | Idea Submission | Roadmap | — | 2026-05-22 |
-| PROJ-4 | Voting System | Roadmap | — | 2026-05-22 |
-| PROJ-5 | Ideas Board | Roadmap | — | 2026-05-22 |
-| PROJ-6 | Admin Panel | Roadmap | — | 2026-05-22 |
-| PROJ-7 | Kommentare auf Ideen | Roadmap | — | 2026-05-22 |
-| PROJ-8 | E-Mail-Benachrichtigungen | Roadmap | — | 2026-05-22 |
-| PROJ-9 | Roadmap-Ansicht | Roadmap | — | 2026-05-22 |
+| PROJ-1 | Supabase Infrastructure Setup | Approved | [PROJ-1](PROJ-1-supabase-infrastructure-setup.md) | 2026-05-22 |
+| PROJ-2 | User Authentication | Approved | [PROJ-2](PROJ-2-user-authentication.md) | 2026-05-22 |
+| PROJ-3 | Idea Submission | Approved | [PROJ-3](PROJ-3-idea-submission.md) | 2026-05-22 |
+| PROJ-4 | Voting System | Approved | [PROJ-4](PROJ-4-voting-system.md) | 2026-05-22 |
+| PROJ-5 | Ideas Board | In Review | [PROJ-5](PROJ-5-ideas-board.md) | 2026-05-22 |
+| PROJ-6 | Admin Panel | Planned | [PROJ-6](PROJ-6-admin-panel.md) | 2026-05-22 |
+| PROJ-7 | Kommentare auf Ideen | Planned | [PROJ-7](PROJ-7-kommentare-auf-ideen.md) | 2026-05-22 |
+| PROJ-8 | E-Mail-Benachrichtigungen | Planned | [PROJ-8](PROJ-8-email-benachrichtigungen.md) | 2026-05-22 |
+| PROJ-9 | Roadmap-Ansicht | Planned | [PROJ-9](PROJ-9-roadmap-ansicht.md) | 2026-05-22 |
 
 <!-- Add features above this line -->
 
