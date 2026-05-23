@@ -1,6 +1,6 @@
 # PROJ-5: Ideas Board
 
-**Status:** In Review  
+**Status:** Deployed  
 **Priority:** P0 (MVP)  
 **Created:** 2026-05-22  
 **Updated:** 2026-05-23
@@ -173,3 +173,11 @@ Dann im Browser einloggen → Datei wird gespeichert → `npm run test:e2e` erne
 ### Produktionsreife
 
 **BEDINGT BEREIT** — keine Critical/High-Bugs vorhanden. Auth-E2E-Tests müssen nach Einrichtung von `auth-state.json` einmalig durchlaufen und grün sein.
+
+## Deployment (2026-05-23)
+
+- **Production URL:** https://city-concierge-voting.vercel.app
+- **Vercel Projekt:** city-concierge-voting
+- **Deployment ID:** dpl_FMaCr95F2PAcapaGpgmCJDQnjwKz
+- **GitHub Repo:** https://github.com/BobKuss/ai-coding-starter-kit
+- **Auto-Deploy:** Aktiv — jeder Push auf `main` → Vercel deployt automatisch
