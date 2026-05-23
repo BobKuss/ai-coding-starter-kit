@@ -1,17 +1,29 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { createClient } from '@/lib/supabase/client'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 
+const URL_ERRORS: Record<string, string> = {
+  'link-ungueltig': 'Der Magic Link ist abgelaufen oder ungültig. Bitte fordere einen neuen an.',
+  'nicht-autorisiert': 'Deine E-Mail-Adresse ist nicht für dieses Board zugelassen.',
+}
+
 export default function LoginPage() {
   const [email, setEmail] = useState('')
   const [loading, setLoading] = useState(false)
   const [success, setSuccess] = useState(false)
   const [error, setError] = useState<string | null>(null)
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search)
+    const urlError = params.get('error')
+    if (urlError) {
+      setError(URL_ERRORS[urlError] ?? 'Etwas ist schiefgelaufen. Bitte versuche es erneut.')
+    }
+  }, [])
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
